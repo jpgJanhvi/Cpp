@@ -41,4 +41,11 @@ int main(){
 
     cout<<d.empty()<<endl;
 
+    d.erase(d.begin(),d.begin()+1);
+    cout<<"size after erase"<<" "<<d.size()<<endl;
+    for(int i:d){
+        cout<<i<<" ";
+    }cout<<endl;
+    
+
 }
